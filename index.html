@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundry Mart</title>
+    <style>
+        body {
+            font-family: cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            width: 450px;
+            height: auto;
+            border-radius: 4px;
+            overflow: hidden;
+            
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        input[type="text"], input[type="email"], input[type="tel"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(118, 150, 255);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to The Laundry Mart</h1>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>
+            Laundry Mart is a premier laundry service dedicated to providing top-notch laundry solutions to our customers. 
+            We offer a wide range of services including washing, drying, ironing, and dry cleaning. Our team is committed to delivering 
+            high-quality service with a focus on customer satisfaction. Whether it's everyday laundry or special garment care, we handle 
+            it all with utmost care and professionalism. Trust us to keep your clothes fresh, clean, and well-maintained.
+            <p>
+                <strong> This is your one stop solution for all your Laundry needs. </strong>
+            </p>
+        </p>
+    </section>
+
+    <!-- Image Section -->
+    <section id="image">
+        <h2>Our Laundry Mart</h2>
+        <img src="Laundry.jpg" alt="Laundry Image">
+        <p><i> We use high-quality equipment to ensure your clothes are cleaned and cared for with the utmost precision.</i></p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Washing and Drying</li>
+            <li>Ironing and Folding</li>
+            <li>Dry Cleaning</li>
+            <li>Stain Removal</li>
+            <li>Express Services</li>
+            <li>Special Garment Care</li>
+        </ul>
+    </section>
+
+    <!-- Price List Section -->
+    <section id="price-list">
+        <h2>Price List</h2>
+        <table>
+            <tr>
+                <th>Service</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Washing and Drying</td>
+                <td>Rs 10.00</td>
+            </tr>
+            <tr>
+                <td>Ironing and Folding</td>
+                <td>Rs 5.00</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Book Now Section -->
+    <section id="book-now">
+        <h2>Book Now</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="service">Service Required:</label>
+            <input type="text" id="service" name="service" required>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>
+            Contact us at: <a href="mailto:info@laundrymart.com">info@laundrymart.com</a>
+            <br> <br>
+            &copy; 2025 Laundry Mart. All rights reserved. Designed & Developed by <a target="_blank" href="https://github.com/Pritam-Stats">Pritam</a>
+        </p>
+    </footer>
+
+</body>
+</html>
